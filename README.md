@@ -6,4 +6,4 @@ _Repository pour partager les notebooks._
 3) Représentation de la courbe des densités de probabilités (np.cumcum)
 4) Interpolation...
 ### Notebook
-$\rightarrow$ Equa_histo_V
+$\rightarrow$ Equa_histo_V2
