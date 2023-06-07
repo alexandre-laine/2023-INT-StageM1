@@ -24,7 +24,7 @@ Q: introduction d'une Egalisation d'histogramme dans le decoding?
 
 _biblio :_ https://arxiv.org/pdf/1701.06859.pdf
 
-*  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo_V2.ipynb](./Equa_histo_V2.ipynb)
+*  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo.ipynb](./Equa_histo.ipynb)
 
 ## Semaine 3: decoding d'autres datasets?
 
