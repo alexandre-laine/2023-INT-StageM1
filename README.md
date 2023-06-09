@@ -1,10 +1,10 @@
 # 2023-INT-StageM1
-_Repository des notebooks et des autres éléments de mon stage de M1._
+_Repository stage de M1._
 
 ## Semaine 1: Décoding de Berens appliqué aux données d'Hugo
 _cf._ https://github.com/alexandre-laine/ADAM_obv1replication
 
-_Decoding theta :_ 
+### Decoding theta :
 *  Notebook : [Decoding_theta.ipynb](./Decoding_theta.ipynb), [Figure_decoding.ipynb](./Decoding_theta.ipynb)
 *  Résultats decoding : [Matrices_decoding_theta](./Matrices_decoding_theta.ipynb), [Scores_decoding_theta](./Scores_decoding_theta.ipynb)
 *  Figure : [Matrice](./Matrices_decoding_theta.png), [Scores](./Scores_decoding_theta.png)
@@ -19,21 +19,13 @@ Ladret, H. J., Cortes, N., Ikan, L., & Perrinet, L. U. (s. d.). 1 Resilience to
 
 Q: introduction d'une Egalisation d'histogramme dans le decoding?
 
-### étude de l'égalisation d'histogramme 
-
-* _Déroulement à suivre :_
-1) Génération de donnée selon une loi de Poisson (scipy.stats.poisson)
-2) Réalisation de l'histogramme de probabilité (np.histogram $\rightarrow$ plt.plot)
-3) Représentation de la courbe des densités de probabilités (np.cumsum)
-4) Interpolation...
-5) Passage des données générées dans l'interpolation
-6) Observation de la répartition des donnés après l'interpolation
+### Etude de l'égalisation d'histogramme :
+*  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo.ipynb](./Equa_histo.ipynb)
 
 _biblio :_ 
 
 https://arxiv.org/pdf/1701.06859.pdf
 
-*  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo.ipynb](./Equa_histo.ipynb)
 
 ## Semaine 3: decoding d'autres datasets?
 
