@@ -29,7 +29,9 @@ Q: introduction d'une Egalisation d'histogramme dans le decoding?
 5) Passage des données générées dans l'interpolation
 6) Observation de la répartition des donnés après l'interpolation
 
-_biblio :_ https://arxiv.org/pdf/1701.06859.pdf
+_biblio :_ 
+
+https://arxiv.org/pdf/1701.06859.pdf
 
 *  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo.ipynb](./Equa_histo.ipynb)
 
