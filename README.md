@@ -5,9 +5,7 @@ _Repository stage de M1._
 _cf._ https://github.com/alexandre-laine/ADAM_obv1replication
 
 ### Decoding theta :
-*  Notebook : [Decoding_theta.ipynb](./Decoding_theta.ipynb), [Figure_decoding.ipynb](./Decoding_theta.ipynb)
-*  Résultats decoding : [Matrices_decoding_theta](./Matrices_decoding_theta.ipynb), [Scores_decoding_theta](./Scores_decoding_theta.ipynb)
-*  Figure : [Matrice](./Matrices_decoding_theta.png), [Scores](./Scores_decoding_theta.png)
+*  Notebook : [Decoding_theta.ipynb](./Notebook/Decoding.ipynb)
 
 _biblio :_ 
 
@@ -20,7 +18,17 @@ Ladret, H. J., Cortes, N., Ikan, L., & Perrinet, L. U. (s. d.). 1 Resilience to
 Q: introduction d'une Egalisation d'histogramme dans le decoding?
 
 ### Etude de l'égalisation d'histogramme :
-*  Notebook $\rightarrow$ **Egalisation d'histogramme** : [Equa_histo.ipynb](./Equa_histo.ipynb)
+*  Notebook :
+
+[Equa_histo.ipynb](./Notebook/Equa_histo.ipynb)
+
+[Decoding_equal.ipynb](./Notebook/Decoding_equal.ipynb)
+
+"Attentiion : l'égalisation n'est faite que pour le décoding de $\mu_theta$"
+
+*  Ensemble des figures et étude de l'égalisation :
+
+[**Figure_decoding.ipynb**](./Notebook/Decoding_theta.ipynb)
 
 _biblio :_ 
 
