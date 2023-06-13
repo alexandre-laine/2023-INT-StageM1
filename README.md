@@ -20,7 +20,7 @@ Q: introduction d'une Egalisation d'histogramme dans le decoding?
 ### Etude de l'égalisation d'histogramme :
 *  Notebook : [Equa_histo.ipynb](./Notebook/Equa_histo.ipynb), [Decoding_equal.ipynb](./Notebook/Decoding_equal.ipynb)
 
-"Attentiion : l'égalisation n'est faite que pour le décoding de $\mu_theta$"
+"Attention : l'égalisation n'est faite que pour le décoding de $\mu_\theta$"
 
 *  Ensemble des figures et étude de l'égalisation : [**Figure_decoding.ipynb**](./Notebook/Figure_decoding.ipynb)
 
