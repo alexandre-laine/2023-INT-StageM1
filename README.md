@@ -5,7 +5,7 @@ _Repository stage de M1._
 _cf._ https://github.com/alexandre-laine/ADAM_obv1replication
 
 ### Decoding :
-*  Notebook : [Decoding.ipynb](./Notebook/Decoding.ipynb) [Decoding_resilient_sensible.ipynb](./Notebook/Decoding_resilient_sensible.ipynb)
+*  Notebook : [Decoding.ipynb](./Notebook/Decoding.ipynb), [Decoding_resilient_sensible.ipynb](./Notebook/Decoding_resilient_sensible.ipynb)
 
 _biblio :_ 
 
@@ -20,8 +20,7 @@ Q: introduction d'une Egalisation d'histogramme dans le decoding?
 ### Etude de l'égalisation d'histogramme :
 *  Notebook : [Equa_histo.ipynb](./Notebook/Equa_histo.ipynb), [Decoding_equal.ipynb](./Notebook/Decoding_equal.ipynb)
 
-
-*  Ensemble des figures et étude de l'égalisation : [**Figure_decoding.ipynb**](./Notebook/Figure_decoding.ipynb)
+*  Ensemble des figures et du déroulé de l'étude de l'égalisation : [**Figure_decoding.ipynb**](./Notebook/Figure_decoding.ipynb)
 
 _biblio :_ 
 
@@ -31,4 +30,3 @@ https://arxiv.org/pdf/1701.06859.pdf
 ## Semaine 3: decoding d'autres datasets?
 
 * https://github.com/CONECT-INT/2022_CENTURI-SummerSchool/tree/main/dev
-* 
