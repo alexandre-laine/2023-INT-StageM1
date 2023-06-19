@@ -13,7 +13,7 @@ Berens, P., Ecker, A. S., Cotton, R. J., Ma, W. J., Bethge, M., & Tolias, A. S. 
 
 Ladret, H. J., Cortes, N., Ikan, L., & Perrinet, L. U. (s. d.). 1 Resilience to sensory variance in the primary visual 2 cortex.
 
-## Semaine 2: Peut-on améliorer la performance du decoding?
+## Semaine 2 et 3 : Peut-on améliorer la performance du decoding?
 
 Q: introduction d'une Egalisation d'histogramme dans le decoding?
 
@@ -26,7 +26,11 @@ _biblio :_
 
 https://arxiv.org/pdf/1701.06859.pdf
 
+### Etude de la fonction d'erreur inverse (erf) :
 
-## Semaine 3: decoding d'autres datasets?
+
+## Semaine 4 : activité évoquée vs non-evoquée...
+
+## Autre :
 
 * https://github.com/CONECT-INT/2022_CENTURI-SummerSchool/tree/main/dev
