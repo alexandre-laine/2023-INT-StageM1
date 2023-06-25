@@ -11,11 +11,9 @@ _biblio :_
 
 Berens, P., Ecker, A. S., Cotton, R. J., Ma, W. J., Bethge, M., & Tolias, A. S. (2012). A Fast and Simple Population Code for Orientation in Primate V1. Journal of Neuroscience, 32(31), 10618‑10626. https://doi.org/10.1523/JNEUROSCI.1335-12.2012
 
-Ladret, H. J., Cortes, N., Ikan, L., & Perrinet, L. U. (s. d.). 1 Resilience to sensory variance in the primary visual 2 cortex.
+Ladret, H. J., Cortes, N., Ikan, L., Chavane, F., Casanova, C., & Perrinet, L. U. (2023). Cortical recurrence supports resilience to sensory variance in the primary visual cortex. Communications Biology, 6(1), 667. https://doi.org/10.1038/s42003-023-05042-3
 
 ## Semaine 2 et 3 : Peut-on améliorer la performance du decoding?
-
-Q: introduction d'une Egalisation d'histogramme dans le decoding?
 
 ### Etude de l'égalisation d'histogramme :
 *  Notebook : [Equa_histo.ipynb](./Notebook/Equa_histo.ipynb), [Decoding_equal.ipynb](./Notebook/Decoding_equal.ipynb)
@@ -29,8 +27,9 @@ https://arxiv.org/pdf/1701.06859.pdf
 ### Etude de la fonction d'erreur inverse (erf) :
 
 
-## Semaine 4 : activité évoquée vs non-evoquée...
+## Semaine 4 : Utiliser le décoding pour différencier l'activitée évoquée et non-évoquée !
 
 ## Autre :
 
 * https://github.com/CONECT-INT/2022_CENTURI-SummerSchool/tree/main/dev
+* Poster :
