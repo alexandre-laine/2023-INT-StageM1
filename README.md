@@ -3,7 +3,7 @@ _Repository de mon stage de M1 réalisé au sein de l'équipe NeOpTo de l'instit
 
 ## Organisation :
 Ces dossiers regroupent la contribution que j'ai pu apporté durant mon stage au travail réalisé par Hugo Ladret sur le décoding d'activités enregistrées au sein du cortex visuel primaire d'un chat lors de la présentation de différents stimulus. \
-Mon objectif a été d'ajouter une phase de transformations non-linéaires afin de modifier le support du "décodeur" et ainsi améliorer ses performances. Cette phase se composait tout d'abord du égalisation d'histogramme et du passage au sein d'une fonction d'erreur inverse. \
+Mon objectif a été d'ajouter une phase de transformations non-linéaires afin de modifier le support du "décodeur" et ainsi améliorer ses performances. Cette phase se composait tout d'abord du égalisation d'histogramme et du passage au sein d'une fonction d'erreur inverse.
 
 Les fichiers principaux sont :
 - le [notebook principal](M1_stage_2023_AL.ipynb) reprenant tout le déroulé du décoding.
