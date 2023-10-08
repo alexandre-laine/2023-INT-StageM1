@@ -1,35 +1,26 @@
-# 2023-INT-StageM1
-_Repository stage de M1._
+# ./postprocessing
 
-## Semaine 1: Décoding de Berens appliqué aux données d'Hugo
-_cf._ https://github.com/alexandre-laine/ADAM_obv1replication
+You should only be running this after all the data has been preprocessed in the ../preprocessing/X/ folder, where X is the dataset type (one of cat or monkey, currently)
 
-### Decoding :
-*  Notebook : [Decoding.ipynb](./Notebook/Decoding.ipynb), [Decoding_resilient_sensible.ipynb](./Notebook/Decoding_resilient_sensible.ipynb)
+.py files are labelled sn_X.py for single neuron analysis, clustering.py for the intermediate clustering step, and decoding_X.py for the logistic regression decoding.
+Running main.py should be straightforward and do everything automatically.
 
-_biblio :_ 
+## TODO : migrate the CSD and logistic regression parameter scan to this repo
 
-Berens, P., Ecker, A. S., Cotton, R. J., Ma, W. J., Bethge, M., & Tolias, A. S. (2012). A Fast and Simple Population Code for Orientation in Primate V1. Journal of Neuroscience, 32(31), 10618‑10626. https://doi.org/10.1523/JNEUROSCI.1335-12.2012
+## run_introduction.py ; utils_introduction.py
+Makes the introduction figures (a natural images + HOG) and generates MotionClouds for illustrative purposes
 
-Ladret, H. J., Cortes, N., Ikan, L., Chavane, F., Casanova, C., & Perrinet, L. U. (2023). Cortical recurrence supports resilience to sensory variance in the primary visual cortex. Communications Biology, 6(1), 667. https://doi.org/10.1038/s42003-023-05042-3
+## run_sn_tuning_curves.py ; utils_single_neuron.py
+Makes tuning curves for the example neurons and computes statistics.
+* If clustering has been performed, makes a figure showing that last btheta at which a neuron is tuned
 
-## Semaine 2 et 3 : Peut-on améliorer la performance du decoding?
+## run_sn_psth.py ; utils_single_neuron.py
+Makes PSTH figures, pretty straightforward and light
 
-### Etude de l'égalisation d'histogramme :
-*  Notebook : [Equa_histo.ipynb](./Notebook/Equa_histo.ipynb), [Decoding_equal.ipynb](./Notebook/Decoding_equal.ipynb)
+## run_sn_dynamics ; utils_single_neuron.py
+Computes the dynamical properties of the tuning curves and the firing rates, and also computes a very important array that serves for clustering and some NKR properties later on
+* If clustering has been performed, makes two figures of optimal delay ratio and early/late spiking ratio
 
-*  Ensemble des figures et du déroulé de l'étude de l'égalisation : [**Figure_decoding.ipynb**](./Notebook/Figure_decoding.ipynb)
-
-_biblio :_ 
-
-https://arxiv.org/pdf/1701.06859.pdf
-
-### Etude de la fonction d'erreur inverse (erf) :
-
-
-## Semaine 4 : Utiliser le décoding pour différencier l'activitée évoquée et non-évoquée !
-
-## Autre :
-
-* https://github.com/CONECT-INT/2022_CENTURI-SummerSchool/tree/main/dev
-* Poster :
+## run_sn_NKR ; utils_single_neuron.py
+Makes the Naka-Rushton plots for single neuron and population, requires run_sn_dynamics to have been run.
+* If clustering has been performed, makes a plot of circular variance at Btheta = 0 and Btheta = 36 deg.

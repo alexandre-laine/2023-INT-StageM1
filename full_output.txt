@@ -1,0 +1,301 @@
+#################################
+#  Making introduction figures  #
+#################################
+
+Done with the introduction figures !
+
+##################################
+#  Making single neuron figures  #
+##################################
+
+Computing whether the peak-to-baseline ratio changes significantly from Bt0 to Bt36
+Mary_A006_cl18 114.0 0.006831620819866657
+Tom_I002_cl185 0.0 9.313225746154785e-10
+Tom_V001_cl103 31.0 2.210959792137146e-06
+Neurons that signif. changed amp from Bt0 to Bt36 :  237 / 249 (95.18 percent)
+
+Computing how many neurons are still tuned at Bt36
+Mary_A006_cl18 171.0 0.2481376511916633
+Tom_I002_cl185 119.5 0.07329131582306242
+Tom_V001_cl103 22.5 1.8488308296371416e-05
+Neurons that are still tuned at Bt36 :  71 / 249 (28.51 percent)
+
+Computing the last Btheta at which the neuron is tuned
+Mary_A006_cl18 82.0 0.0027658100856036115 15.428571428571429
+Tom_I002_cl185 67.0 0.003787015423027028 30.857142857142858
+Tom_V001_cl103 22.5 1.8488308296371416e-05 36.0
+
+Computing the whether pref ori changed
+Mary_A006_cl18 0.0 3.762323357455214e-06
+Tom_I002_cl185 1.5 4.415017453931306e-06
+Tom_V001_cl103 13.0 1.6391277313232422e-07
+Neurons that signif. changed pref ori from Bt0 to their last tuned Bt:  3 / 249 (1.20 percent)
+Plotting tuning curves for example neurons
+Done with the tuning curves figures !
+Plotting PSTH for example neurons
+Done with the PSTH figures !
+Computing early/late spike ratios...
+At Btheta = -1, Median value of early/late spike ratio: -0.58
+At Btheta = 0, Median value of early/late spike ratio: 0.27
+Difference of delays (ratios is less for larger bthetas) :
+MannwhitneyuResult(statistic=14320.0, pvalue=1.403684335163145e-25)
+Computing dynamical tuning curves
+Mary_A006_cl18
+Tom_I002_cl185
+Tom_V001_cl103
+Mary_C006c_cl56
+Steven_I002_cl128
+Steven_L001_cl103
+Tom_L001_cl131
+Tom_V001_cl39
+Tom_V003_cl116
+Tom_I001_cl172
+Tom_H001_cl14
+Tom_V003_cl112
+Done with the dynamical figures !
+Histogram of optimal delays for btheta 0 - median : 32.00000
+Histogram of optimal delays for btheta -1 - median : 27.00000
+Histogram of optimal delays for btheta 36 vs btheta 0 is greater ?
+MannwhitneyuResult(statistic=31618.0, pvalue=0.008885877577158984)
+Done with extracting data for correlation array
+Doing NKR for CV
+Making NKR for example neurons
+Mary_A006_cl18
+CV n = 8.40 ; B50 = 0.26°, r^2 = 0.26
+Tom_I002_cl185
+CV n = 3.87 ; B50 = 0.62°, r^2 = 0.76
+Tom_V001_cl103
+CV n = 2.42 ; B50 = 6.28°, r^2 = 0.82
+
+Median for CV values (baseline, n, btheta50
+0.7527431774746443
+3.799200506434408
+17.801776142773456
+Computing Bayesian Information Criterion for NKR
+Variable ['CV', 629.6093762273758, 6.046160167075261e-135,                   nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  3.772132e-87  2.255395e-01  1.139682e-05  9.722495e-35
+ReLU     3.772132e-87  1.000000e+00  6.558703e-98  1.655750e-53  6.691036e-14
+sigmoid  2.255395e-01  6.558703e-98  1.000000e+00  2.134294e-08  1.437439e-41
+pol2     1.139682e-05  1.655750e-53  2.134294e-08  1.000000e+00  2.669530e-15
+5        9.722495e-35  6.691036e-14  1.437439e-41  2.669530e-15  1.000000e+00]
+Kruskal value 629.609, pval 0.000000000000
+Dunn Posthoc :
+                  nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  3.772132e-87  2.255395e-01  1.139682e-05  9.722495e-35
+ReLU     3.772132e-87  1.000000e+00  6.558703e-98  1.655750e-53  6.691036e-14
+sigmoid  2.255395e-01  6.558703e-98  1.000000e+00  2.134294e-08  1.437439e-41
+pol2     1.139682e-05  1.655750e-53  2.134294e-08  1.000000e+00  2.669530e-15
+5        9.722495e-35  6.691036e-14  1.437439e-41  2.669530e-15  1.000000e+00
+-------------------
+
+
+Doing NKR for HWHH
+Making NKR for example neurons
+Mary_A006_cl18
+hwhh n = 96.31 ; B50 = 0.35°, r^2 = 0.85
+Tom_I002_cl185
+hwhh n = 9.65 ; B50 = 0.30°, r^2 = 0.92
+Tom_V001_cl103
+hwhh n = 2.33 ; B50 = 1.43°, r^2 = 0.71
+
+Median for HWHH values (baseline, n, btheta50
+0.25669510748116736
+3.890370657762518
+16.52460693013329
+Computing Bayesian Information Criterion for NKR
+Variable ['HWHH', 461.0730826766812, 1.7533626914244135e-98,                   nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  1.084584e-57  7.607998e-02  3.958860e-04  1.395447e-29
+ReLU     1.084584e-57  1.000000e+00  9.385918e-71  1.124490e-35  2.409929e-06
+sigmoid  7.607998e-02  9.385918e-71  1.000000e+00  1.056606e-07  4.984255e-39
+pol2     3.958860e-04  1.124490e-35  1.056606e-07  1.000000e+00  9.061005e-15
+5        1.395447e-29  2.409929e-06  4.984255e-39  9.061005e-15  1.000000e+00]
+Kruskal value 461.073, pval 0.000000000000
+Dunn Posthoc :
+                  nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  1.084584e-57  7.607998e-02  3.958860e-04  1.395447e-29
+ReLU     1.084584e-57  1.000000e+00  9.385918e-71  1.124490e-35  2.409929e-06
+sigmoid  7.607998e-02  9.385918e-71  1.000000e+00  1.056606e-07  4.984255e-39
+pol2     3.958860e-04  1.124490e-35  1.056606e-07  1.000000e+00  9.061005e-15
+5        1.395447e-29  2.409929e-06  4.984255e-39  9.061005e-15  1.000000e+00
+-------------------
+
+
+Doing NKR for Rmax
+Making NKR for example neurons
+Mary_A006_cl18
+Rmax n = 2.32 ; B50 = 1.18°, r^2 = 0.99
+Tom_I002_cl185
+Rmax n = 4.75 ; B50 = 1.03°, r^2 = 0.95
+Tom_V001_cl103
+Rmax n = 1.00 ; B50 = 1.19°, r^2 = 0.86
+
+Median for Rmax values (baseline, n, btheta50
+0.0954169260945266
+2.1576441223222105
+28.306212421333708
+Computing Bayesian Information Criterion for NKR
+Variable ['Rmax', 634.5277651634206, 5.2099534635729374e-136,                   nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  6.620060e-86  2.460594e-06  9.767002e-31  2.001409e-89
+ReLU     6.620060e-86  1.000000e+00  2.048075e-50  4.770315e-16  6.837877e-01
+sigmoid  2.460594e-06  2.048075e-50  1.000000e+00  9.456186e-12  4.192616e-53
+pol2     9.767002e-31  4.770315e-16  9.456186e-12  1.000000e+00  1.534611e-17
+5        2.001409e-89  6.837877e-01  4.192616e-53  1.534611e-17  1.000000e+00]
+Kruskal value 634.528, pval 0.000000000000
+Dunn Posthoc :
+                  nkr          ReLU       sigmoid          pol2             5
+nkr      1.000000e+00  6.620060e-86  2.460594e-06  9.767002e-31  2.001409e-89
+ReLU     6.620060e-86  1.000000e+00  2.048075e-50  4.770315e-16  6.837877e-01
+sigmoid  2.460594e-06  2.048075e-50  1.000000e+00  9.456186e-12  4.192616e-53
+pol2     9.767002e-31  4.770315e-16  9.456186e-12  1.000000e+00  1.534611e-17
+5        2.001409e-89  6.837877e-01  4.192616e-53  1.534611e-17  1.000000e+00
+-------------------
+
+
+Done with the NKR figures !
+##############################
+#  Making clustering figures #
+##############################
+
+Direction selectivity stats :
+MannwhitneyuResult(statistic=7384.5, pvalue=0.533995067519263)
+Done with the clustering figures !
+-- Stats on the early/late ratios
+Tuned vs untuned at btheta 0°
+MannwhitneyuResult(statistic=9067.5, pvalue=9.654191448236335e-05)
+Tuned vs untuned at btheta 36°
+MannwhitneyuResult(statistic=8580.5, pvalue=0.002334069832211898)
+Tuned at btheta 0 vs tuned at btheta 36°
+MannwhitneyuResult(statistic=1965.0, pvalue=2.1873375034851042e-08)
+untuned at btheta 0 vs untuned at btheta 36°
+MannwhitneyuResult(statistic=5446.5, pvalue=4.3680257964298653e-20)
+Statistical difference between tuned and untuned neurons for last Bt tuned:
+MannwhitneyuResult(statistic=9995.5, pvalue=1.554041479796801e-08)
+
+
+Statistical difference for baseline at btheta 0
+MannwhitneyuResult(statistic=7625.5, pvalue=0.007124885080532144)
+
+
+Statistical difference for baseline at btheta 7
+MannwhitneyuResult(statistic=7871.5, pvalue=0.0016438451228673943)
+
+
+CV n tuned vs untuned
+MannwhitneyuResult(statistic=1405.0, pvalue=2.045500838470536e-23)
+CV b tuned vs untuned
+MannwhitneyuResult(statistic=2043.0, pvalue=2.9465905936088264e-18)
+CV b50 tuned vs untuned
+MannwhitneyuResult(statistic=7721.0, pvalue=0.004138825151311451)
+HWHH n tuned vs untuned
+MannwhitneyuResult(statistic=5918.0, pvalue=0.17400971354903594)
+HWHH b tuned vs untuned
+MannwhitneyuResult(statistic=5843.0, pvalue=0.13843085879610434)
+HWHH b50 tuned vs untuned
+MannwhitneyuResult(statistic=6787.0, pvalue=0.2160781070895924)
+Rmax n tuned vs untuned
+MannwhitneyuResult(statistic=5315.0, pvalue=0.016279972494383635)
+Rmax b tuned vs untuned
+MannwhitneyuResult(statistic=5594.0, pvalue=0.05672642457867736)
+Rmax b50 tuned vs untuned
+MannwhitneyuResult(statistic=7027.0, pvalue=0.10329385138609298)
+Done with the post-clustering figures !
+
+############################
+#  Making decoding figures #
+############################
+
+Doing the decoding for theta (orientation)
+Doing the decoding on all the neurons with K-fold = 5
+Btheta 0.00 - max at time 0.28s = 0.85
+Btheta 0.63 - max at time 0.38s = 0.41
+Doing the population TC for theta (orientation)
+
+Doing the population TC linear regression
+0.0
+Slope = 1.230 ; Intercept = -0.072 ; pval = 5.703839890162908e-33
+Spearman R = 0.911 ; pval = 4.0599229734430964e-20
+0.6283185307179586
+Slope = 0.627 ; Intercept = 0.044 ; pval = 7.513686975475101e-22
+Spearman R = 0.907 ; pval = 1.318837151249135e-19
+Doing the decoding on the two groups with boostraps
+Doing population tuning curve on the two groups with boostraps
+
+Doing the population TC linear regression
+bt 0
+Resilient
+Slope = 1.084 ; Intercept = 0.003 ; pval = 2.7103400285090435e-34
+Spearman R = 0.848 ; pval = 8.070178992437328e-15
+-
+Vulnerable
+Slope = 1.085 ; Intercept = -0.033 ; pval = 1.8563482139690434e-22
+Spearman R = 0.904 ; pval = 2.5944207421584176e-19
+------
+bt 1
+Resilient
+Slope = 0.504 ; Intercept = 0.084 ; pval = 0.002840746917003814
+Spearman R = 0.390 ; pval = 0.0051434838758797705
+-
+Vulnerable
+Slope = -0.311 ; Intercept = 0.166 ; pval = 0.010616865586972174
+Spearman R = -0.290 ; pval = 0.04073921605599164
+------
+Done with the decoding theta figures !
+Doing the decoding for Btheta (orientation variance)
+Doing the decoding on all the neurons with K-fold = 5
+Max btheta decoding accuracy at time 0.28s = 0.24
+Doing the population TC for Btheta (orientation variance)
+Doing the decoding on the two groups with boostraps
+Doing population tuning curve on the two groups with boostraps
+Done with the decoding Btheta figures !
+Doing the decoding for Btheta (orientation variance) x Theta (orientation)
+Doing the decoding on all the neurons with K-fold = 5
+Max bthetaxtheta decoding accuracy max at time 0.35s = 0.17
+Doing the population TC for Btheta (orientation variance) x Theta (orientation)
+Doing the decoding on the two groups with boostraps
+Doing population tuning curve on the two groups with boostraps
+Doing the decoding on the two groups with boostraps AND marginalization
+3.9450000000000007
+5.193333333333335
+Doing the coeffmaps
+-0.11457786800777535 -0.0011813646070768142
+-0.11789409057488269 0.057760815227093865
+-0.11827682958004447 0.08397341222748803
+-0.1255333018297801 0.06065816666540192
+-0.13312774774727495 0.053509200659334004
+-0.10899696793563467 0.04332764125456997
+-0.1406592466339644 0.1084862619930079
+-0.14651873264658755 0.13447667410761444
+-0.13554763656077173 0.11611752179656096
+-0.1573647045488417 0.10719978084246672
+Done with the decoding Btheta x Theta figures !
+
+#####################################
+#  Making continuous decoding figures #
+#######################################
+
+Doing the continuous decoding on theta, for BT = 0°
+Spearman R = -0.893
+Spearman p-value = 0.007
+LinReg p-value = 0.006
+LinReg r^2 = -0.898
+Doing the continuous decoding on theta, for BT = 36°
+Spearman R = -0.595
+Spearman p-value = 0.159
+LinReg p-value = 0.086
+LinReg r^2 = -0.691
+Doing the continuous decoding on btheta
+Spearman R = -0.071
+Spearman p-value = 0.879
+LinReg p-value = 0.847
+LinReg r^2 = 0.091
+Doing the continuous decoding on btheta x theta
+Spearman R = -0.750
+Spearman p-value = 0.052
+LinReg p-value = 0.028
+LinReg r^2 = -0.808
+Done with the decoding with continuous scoring !
+
+##############################################################
+#  All done ! Jump to the ../model folder for the final figures#
+################################################################
+

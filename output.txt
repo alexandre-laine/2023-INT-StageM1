@@ -1,0 +1,8 @@
+
+#####################################
+#  Making continuous decoding figures #
+#######################################
+
+Doing the continuous decoding on theta, for BT = 0°
+0
+100
