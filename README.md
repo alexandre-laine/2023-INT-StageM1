@@ -1,26 +1,23 @@
-# ./postprocessing
+# 2023-INT-Stage-M1
+_Repository de mon stage de M1 réalisé au sein de l'équipe NeOpTo de l'institut de Neurosciences de la TImone (INT) sous la direction de [Laurent U. Perrinet](https://github.com/laurentperrinet)_
 
-You should only be running this after all the data has been preprocessed in the ../preprocessing/X/ folder, where X is the dataset type (one of cat or monkey, currently)
+## Organisation :
+Ces dossiers regroupent la contribution que j'ai pu apporté durant mon stage au travail réalisé par Hugo Ladret sur le décoding d'activités enregistrées au sein du cortex visuel primaire d'un chat lors de la présentation de différents stimulus. \
+Mon objectif a été d'ajouter une phase de transformations non-linéaires afin de modifier le support du "décodeur" et ainsi améliorer ses performances. Cette phase se composait tout d'abord du égalisation d'histogramme et du passage au sein d'une fonction d'erreur inverse. \
+Les fichiers principaux sont :
+- le
 
-.py files are labelled sn_X.py for single neuron analysis, clustering.py for the intermediate clustering step, and decoding_X.py for the logistic regression decoding.
-Running main.py should be straightforward and do everything automatically.
+## Résumer du stage :
+- Semaine 1 : décoding de Berens appliqué aux données d'[Hugo Ladret](https://github.com/hugoladret)
 
-## TODO : migrate the CSD and logistic regression parameter scan to this repo
+_biblio :_ \
+Berens, P., Ecker, A. S., Cotton, R. J., Ma, W. J., Bethge, M., & Tolias, A. S. (2012). A Fast and Simple Population Code for Orientation in Primate V1. Journal of Neuroscience, 32(31), 10618‑10626. https://doi.org/10.1523/JNEUROSCI.1335-12.2012 \
+Ladret, H. J., Cortes, N., Ikan, L., Chavane, F., Casanova, C., & Perrinet, L. U. (2023). Cortical recurrence supports resilience to sensory variance in the primary visual cortex. Communications Biology, 6(1), 667. https://doi.org/10.1038/s42003-023-05042-3 \
 
-## run_introduction.py ; utils_introduction.py
-Makes the introduction figures (a natural images + HOG) and generates MotionClouds for illustrative purposes
+- Semaine 2 et 3 : peut-on améliorer la performance du décoding ?
 
-## run_sn_tuning_curves.py ; utils_single_neuron.py
-Makes tuning curves for the example neurons and computes statistics.
-* If clustering has been performed, makes a figure showing that last btheta at which a neuron is tuned
+_biblio :_ \
+Bishop, C. M. (2006). Pattern recognition and machine learning. Springer. \
+Cristóbal, G., Perrinet, L., & Keil, M. S. (Éds.). (2015). Biologically Inspired Computer Vision : Fundamentals and Applications (1ʳᵉ éd.). Wiley. https://doi.org/10.1002/9783527680863
 
-## run_sn_psth.py ; utils_single_neuron.py
-Makes PSTH figures, pretty straightforward and light
-
-## run_sn_dynamics ; utils_single_neuron.py
-Computes the dynamical properties of the tuning curves and the firing rates, and also computes a very important array that serves for clustering and some NKR properties later on
-* If clustering has been performed, makes two figures of optimal delay ratio and early/late spiking ratio
-
-## run_sn_NKR ; utils_single_neuron.py
-Makes the Naka-Rushton plots for single neuron and population, requires run_sn_dynamics to have been run.
-* If clustering has been performed, makes a plot of circular variance at Btheta = 0 and Btheta = 36 deg.
+- Semaine 4 : utilisation du décoding pour différencier l'activité évoquée et non-évoquée !
