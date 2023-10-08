@@ -14,7 +14,7 @@ Les fichiers principaux sont :
 
 _biblio :_ \
 Berens, P., Ecker, A. S., Cotton, R. J., Ma, W. J., Bethge, M., & Tolias, A. S. (2012). A Fast and Simple Population Code for Orientation in Primate V1. Journal of Neuroscience, 32(31), 10618‑10626. https://doi.org/10.1523/JNEUROSCI.1335-12.2012 \
-Ladret, H. J., Cortes, N., Ikan, L., Chavane, F., Casanova, C., & Perrinet, L. U. (2023). Cortical recurrence supports resilience to sensory variance in the primary visual cortex. Communications Biology, 6(1), 667. https://doi.org/10.1038/s42003-023-05042-3 \
+Ladret, H. J., Cortes, N., Ikan, L., Chavane, F., Casanova, C., & Perrinet, L. U. (2023). Cortical recurrence supports resilience to sensory variance in the primary visual cortex. Communications Biology, 6(1), 667. https://doi.org/10.1038/s42003-023-05042-3
 
 - Semaine 2 et 3 : peut-on améliorer la performance du décoding ?
 
