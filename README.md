@@ -25,4 +25,5 @@ Cristóbal, G., Perrinet, L., & Keil, M. S. (Éds.). (2015). Biologically Inspir
 - Semaine 4 : utilisation du décoding pour différencier l'activité évoquée et non-évoquée !
 
 ## Nota bene
-Les données brutes permettant le décoding ne sont pas disponible tout comme les étapes de prépocessing des données. Si besoin, n'hésitez pas à contacter Hugo ou moi-même.
+Les données brutes permettant le décoding ne sont pas disponible tout comme les étapes de prépocessing des données et les données produites au cours de mon stage. 
+Si besoin, n'hésitez pas à contacter Hugo ou moi-même.
