@@ -26,7 +26,7 @@ Cristóbal, G., Perrinet, L., & Keil, M. S. (Éds.). (2015). Biologically Inspir
 
 ## Nota bene
 Les données brutes permettant le décoding ne sont pas disponible tout comme les étapes de prépocessing des données et les données produites au cours de mon stage. 
-Si besoin, n'hésitez pas à contacter Hugo ou moi-même.
+Si besoin, n'hésitez pas à contacter Laurent, Hugo ou moi-même.
 
 ## TODOs
 
