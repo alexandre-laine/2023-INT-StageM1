@@ -9,7 +9,7 @@ Les fichiers principaux sont :
 - le [notebook principal](M1_stage_2023_AL.ipynb) reprenant tout le déroulé du décoding.
 - le [poster](Poster_LAINE_Alexandre_NeuroMarseille_Day_2023.pdf) présenté lors de la journée NeuroMarseille 2023.
 
-## Résumer du stage :
+## Résumeé du stage :
 - Semaine 1 : décoding de Berens appliqué aux données d'[Hugo Ladret](https://github.com/hugoladret)
 
 _biblio :_ \
