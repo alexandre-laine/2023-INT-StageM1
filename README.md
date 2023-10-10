@@ -2,14 +2,14 @@
 _Repository de mon stage de M1 réalisé au sein de l'équipe NeOpTo de l'institut de Neurosciences de la TImone (INT) sous la direction de [Laurent U. Perrinet](https://github.com/laurentperrinet)_
 
 ## Organisation :
-Ces dossiers regroupent la contribution que j'ai pu apporté durant mon stage au travail réalisé par Hugo Ladret sur le décoding d'activités enregistrées au sein du cortex visuel primaire d'un chat lors de la présentation de différents stimulus. \
-Mon objectif a été d'ajouter une phase de transformations non-linéaires afin de modifier le support du "décodeur" et ainsi améliorer ses performances. Cette phase se composait tout d'abord du égalisation d'histogramme et du passage au sein d'une fonction d'erreur inverse.
+Ces dossiers regroupent la contribution que j'ai pu apporter durant mon stage sur le travail réalisé par Hugo Ladret concernant le décoding d'activités enregistrées au sein du cortex visuel primaire d'un chat lors de la présentation de différents stimulus. \
+Mon objectif a été d'ajouter une phase de transformations non-linéaires afin de modifier le support du "décodeur" et ainsi d'améliorer ses performances. Cette phase se composait tout d'abord d'une égalisation d'histogramme et du passage au sein d'une fonction d'erreur inverse.
 
 Les fichiers principaux sont :
 - le [notebook principal](M1_stage_2023_AL.ipynb) reprenant tout le déroulé du décoding.
 - le [poster](Poster_LAINE_Alexandre_NeuroMarseille_Day_2023.pdf) présenté lors de la journée NeuroMarseille 2023.
 
-## Résumeé du stage :
+## Résumé du stage :
 - Semaine 1 : décoding de Berens appliqué aux données d'[Hugo Ladret](https://github.com/hugoladret)
 
 _biblio :_ \
