@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 # CHANGE THESE PARAMETERS  vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 # --------------------------------------------------------------
 postprocess_name = 'paper_2023_postprocess' # Folder in which everything will be saved
-grouping_path = '../preprocessing/cat/processed/paper_data_2023/clusters/' # Folder from which to fetch pre-processed data
+grouping_path = os.path.join("..", "preprocessing", "cat", "processed", "paper_data_2023", "clusters") # Folder from which to fetch pre-processed data
 main_neurons = ['Mary_A006_cl18' , 'Tom_I002_cl185' , 'Tom_V001_cl103'] # Neurons to be displayed in main figures
 ex_neurons = ['Mary_A006_cl18', 'Tom_I002_cl185', 'Tom_V001_cl103',
             'Mary_C006c_cl56', 'Steven_I002_cl128', 'Steven_L001_cl103',
@@ -29,8 +29,8 @@ ex_neurons = ['Mary_A006_cl18', 'Tom_I002_cl185', 'Tom_V001_cl103',
 # --------------------------------------------------------------
 
 # if postprocessedname does not exist, create it
-if not os.path.exists('./data/%s' % postprocess_name):
-    os.makedirs('./data/%s' % postprocess_name)
+if not os.path.exists(os.path.join(".", "data", postprocess_name)):
+    os.makedirs(os.path.join(".", "data", postprocess_name))
 
 # --------------------------------------------------------------
 # Misc parameters
@@ -70,15 +70,15 @@ num_epochs = 1024 # re-used for dynamical tuning curves fitting
 exp_list = ['Mary', 'Tom', 'Steven'] # List of experiments (animals), used for splitting data when verifying merging
 clustering_available = False
 try :
-    cluster_list = np.load('./data/%s/cluster_list.npy'% postprocess_name, allow_pickle = True)  # shuffled list of clusters
+    cluster_list = np.load(os.path.join(".", "data", postprocess_name, "cluster_list.npy"), allow_pickle = True)  # shuffled list of clusters
 except:
     cluster_list = [name for name in os.listdir(grouping_path) if os.path.isdir(grouping_path+name)]
     np.random.seed(42)
     np.random.shuffle(cluster_list)
-    np.save('./data/%s/cluster_list.npy' % postprocess_name, cluster_list)
+    np.save(os.path.join(".", "data", postprocess_name, "cluster_list.npy"), cluster_list)
 
 try :
-    tuned_lst = np.load('./data/%s/kmeans_tuned_lst.npy' % postprocess_name) # neurons that have Kmeans cluster 1 (or 0, can't remember :))
+    tuned_lst = np.load(os.path.join(".", "data", postprocess_name, "kmeans_tuned_lst.npy")) # neurons that have Kmeans cluster 1 (or 0, can't remember :))
     untuned_lst = np.asarray([x for x in cluster_list if x not in tuned_lst]) # all the others
     clustering_available = True
 except:
