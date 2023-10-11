@@ -29,6 +29,6 @@ Les données brutes d'Hugo sont accessibles [ici](https://figshare.com/articles/
 
 ## TODOs
 
-* utiliser `os.path.join` partout où on peut
-* ajouter le lien pour télécharger les données d'hugo
-* nbdiff-web in `pip install nbdime`
+* utiliser `os.path.join` partout où on peut -> ok
+* ajouter le lien pour télécharger les données (et le repo ?) d'hugo -> ok
+* nbdiff-web in `pip install nbdime` 
