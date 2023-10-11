@@ -25,8 +25,7 @@ Cristóbal, G., Perrinet, L., & Keil, M. S. (Éds.). (2015). Biologically Inspir
 - Semaine 4 : utilisation du décoding pour différencier l'activité évoquée et non-évoquée !
 
 ## Nota bene
-Les données brutes permettant le décoding ne sont pas disponible tout comme les étapes de prépocessing des données et les données produites au cours de mon stage. 
-Si besoin, n'hésitez pas à contacter Laurent, Hugo ou moi-même.
+Les données brutes d'Hugo sont accessibles [ici](https://figshare.com/articles/dataset/Data_for_Ladret_et_al_2023_Cortical_recurrence_supports_resilience_to_sensory_variance_in_the_primary_visual_cortex_/23366588), et le code des phases de préprocessing et postprocessing sont accessible sur cet autre [repository](https://github.com/hugoladret/variance-processing-V1).  Les données produites au cours de mon stage sont en partie accessible mais pas en totalité, si besoin, n'hésitez pas à contacter Laurent, Hugo ou moi-même.
 
 ## TODOs
 
