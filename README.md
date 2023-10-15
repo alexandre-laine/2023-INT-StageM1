@@ -27,9 +27,9 @@ Cristóbal, G., Perrinet, L., & Keil, M. S. (Éds.). (2015). Biologically Inspir
 
 ## Autre :
 Il est aussi possible de retrouver le travail réalisé dans la continuité du stage :
-- L'(analyse)[Analyse_stage_AL.ipynb] des scores de décoding obtenue.
-- D'(autres transformations)[Autres_transformations_AL.ipynb] ainsi que leurs influences.
-- L'ensemble des (figures)[.\figs] obtenues au cours et après mon stage.
+- L'[analyse](Analyse_stage_AL.ipynb) des scores de décoding obtenue.
+- D'[autres transformations](Autres_transformations_AL.ipynb) ainsi que leurs influences.
+- L'ensemble des [figures](.\figs) obtenues au cours et après mon stage.
 
 ## Nota bene
 Les données brutes d'Hugo sont accessibles [ici](https://figshare.com/articles/dataset/Data_for_Ladret_et_al_2023_Cortical_recurrence_supports_resilience_to_sensory_variance_in_the_primary_visual_cortex_/23366588), et le code des phases de préprocessing et postprocessing sont accessible sur cet autre [repository](https://github.com/hugoladret/variance-processing-V1).  Les données produites au cours de mon stage sont en partie accessible mais pas en totalité, si besoin, n'hésitez pas à contacter Laurent, Hugo ou moi-même.
