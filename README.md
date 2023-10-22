@@ -1,5 +1,5 @@
 # 2023-INT-Stage-M1
-_Repository de mon stage de M1 réalisé au sein de l'équipe NeOpTo de l'institut de Neurosciences de la TImone (INT) sous la direction de [Laurent U. Perrinet](https://github.com/laurentperrinet)_
+_Repository de mon stage de M1 réalisé au sein de l'équipe NeOpTo de l'institut de Neurosciences de la Timone (INT) sous la direction de [Laurent U. Perrinet](https://github.com/laurentperrinet)_
 
 ## Organisation :
 Ces dossiers regroupent la contribution que j'ai pu apporter durant mon stage sur le travail réalisé par Hugo Ladret concernant le décoding d'activités enregistrées au sein du cortex visuel primaire d'un chat lors de la présentation de différents stimulus. \
