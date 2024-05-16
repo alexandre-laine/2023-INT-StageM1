@@ -33,9 +33,3 @@ Il est aussi possible de retrouver le travail réalisé dans la continuité du s
 
 ## Nota bene
 Les données brutes d'Hugo sont accessibles [ici](https://figshare.com/articles/dataset/Data_for_Ladret_et_al_2023_Cortical_recurrence_supports_resilience_to_sensory_variance_in_the_primary_visual_cortex_/23366588), et le code des phases de préprocessing et postprocessing sont accessible sur cet autre [repository](https://github.com/hugoladret/variance-processing-V1).  Les données produites au cours de mon stage sont en partie accessible mais pas en totalité, si besoin, n'hésitez pas à contacter Laurent, Hugo ou moi-même.
-
-## TODOs
-
-* utiliser `os.path.join` partout où on peut -> ok
-* ajouter le lien pour télécharger les données (et le repo ?) d'hugo -> ok
-* nbdiff-web in `pip install nbdime` 
